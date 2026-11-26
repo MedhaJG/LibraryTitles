@@ -116,15 +116,7 @@ Query
 O(P + S + K)
 Where:
 
-P = Prefix length
-S = Suffix length
-K = Number of matching IDs
-Since the catalog is indexed beforehand, queries do not require scanning every title.
 
-Running the Project
-Clone Repository
-git clone https://github.com/your-username/LibraryHalfRememberedTitles.git
-cd LibraryHalfRememberedTitles
 Run GUI Application
 python main.py
 Run Test Cases
@@ -154,6 +146,8 @@ Latest insertion wins
 Duplicate titles supported
 No full catalog scan during search
 Fast Trie-based retrieval
+
+
 Technologies Used
 Python 3
 Tkinter (GUI)
